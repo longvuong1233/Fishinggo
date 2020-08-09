@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+
+section
+{
+	height: 100vh;
+	
+}
+body{
+	height:100%
+	
+	}
+#particles
+{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	overflow-y:hidden
+}
+
+.fish{
+	position:absolute;
+}
+.fish1{
+	top: 50%;
+	height:150px;
+	opacity: 0.4;
+	animation: animateFish1 40s linear infinite;
+	
+}
+.fish2{
+	top: 15%;
+	height:200px;
+	opacity: 0.3;
+	animation: animateFish2 50s linear infinite;
+}
+
+.seahorse{
+
+	position: absolute;
+	top: 50%;
+	height:220px;
+	opacity: 0.5;
+	animation: AnimateSeahorse 80s linear infinite;
+}
+
+.fish3{
+	top: 40%;
+	height:90px;
+	animation: animateFish1 30s linear infinite;
+}
+
+.fish4{
+	top: 65%;
+	height:60px;
+	animation: animateFish4 25s linear infinite;
+}
+.fish5{
+	top: 30%;
+	height:90px;
+	animation: animateFish5 48s linear infinite;
+}
+.fish6{
+	top: 20%;
+	height:100px;
+	animation: animateFish6 42s linear infinite;
+}
+
+.diver{
+	position:absolute;
+	top: 15%;
+	height:80px;
+	animation: animateDiver 40s linear infinite;
+}
+.turtle{
+	top: 35%;
+	height:170px;
+	animation: animateTurtle 50s linear infinite;
+}
+@keyframes animateFish1
+{
+	0%
+	{
+		transform: translateY(-50px);
+		left: -50%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(100px);
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(-100px);
+		left: 150%;
+	}
+}
+
+@keyframes animateFish2
+{
+	0%
+	{
+		transform: translateY(50px);
+		right: -50%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(-50px);
+
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(100px);
+		right: 150%;
+	}
+}
+@keyframes animateFish4
+{
+	0%
+	{
+		transform: translateY(50px);
+		left: -25%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(-50px);
+
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(100px);
+		left: 150%;
+	}
+}
+
+@keyframes animateDiver
+{
+	0%
+	{
+		transform: translateY(50px);
+		right: -25%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(-50px);
+
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(100px);
+		right: 150%;
+	}
+}
+
+@keyframes animateFish6
+{
+	0%
+	{
+		transform: translateY(-50px);
+		left: -55%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(100px);
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(-100px);
+		left: 150%;
+	}
+}
+@keyframes animateTurtle
+{
+	0%
+	{
+		transform: translateY(-50px);
+		right: -85%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(100px);
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(-100px);
+		right: 150%;
+	}
+}
+@keyframes animateFish5
+{
+	0%
+	{
+		transform: translateY(-50px);
+		left: -75%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(100px);
+	}
+	75%
+	{
+		transform: translateY(0px);
+	}
+	100%
+	{
+		transform: translateY(-100px);
+		left: 150%;
+	}
+}
+@keyframes AnimateSeahorse
+{
+	0%
+	{
+		transform: translateY(50px);
+		right: -45%;
+	}
+	25%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(-200px);
+	}
+	75%
+	{
+		transform: translateY(-400px);
+	}
+	100%
+	{
+		transform: translateY(-500px);
+		right: 150%;
+	}
+}
